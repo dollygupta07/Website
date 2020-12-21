@@ -1,0 +1,77 @@
+/* -----------body--------------- */
+body {
+	background-color: white;
+
+}
+
+
+
+/* -----------navbar--------------- */
+.navbar-custom { 
+	background-color: black;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+	color: rgba(228, 13, 13, 0.8);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+	color: white;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+	color: darkgrey;
+}
+
+
+
+
+/* -----------footer --------------- */
+.footer-custom {
+	position: relative;
+	bottom: 0;
+	background-color: black;
+	width: 100%;
+	text-align: left;
+}
+
+
+/* -----------social media icons --------------- */
+.fa {
+
+	font-size: 10px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+.fa:hover {
+	opacity: 0.7;
+}
+.fa-facebook {
+
+	color: white;
+}
+
+.fa-instagram {
+
+	color: white;
+}
+
+.fa-linkedin {
+
+	color: white;
+}
+.fa-envelope {
+
+	color: white;
+}
+.fa-youtube {
+
+	color: white;
+}
