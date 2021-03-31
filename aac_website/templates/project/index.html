@@ -1,0 +1,55 @@
+	
+  {% extends 'base.html' %}
+{% load static %}
+	{%block title %}
+	Project 
+	{% endblock title %}
+{% block styscr %}  
+         <link rel="stylesheet"  href= "{% static 'css/project.css' %}">
+        <!--CUSTOM STYLE-->
+        {% endblock styscr %} 
+
+	{%block body %}
+	{% comment %} <h3>Project Page</h3> {% endcomment %}
+
+	
+
+
+
+<div class ="rtr">
+
+<div class="wrapper">
+  <div class="card"><img src="https://images.unsplash.com/photo-1508402476522-c77c2fa4479d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"/>
+    <div class="title">
+    <h1>Maoon</h1>
+    </div>
+    <div class="info">
+      <h1>Mountain</h1>
+      <p>Night view jsbdcjh vdcsvhdck  hvsdhvcs khdvck hsdvckhs</p>
+      <button>Read More</button>
+    </div>
+  </div>
+  <div class="card"><img src="https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0YXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"/>
+    <div class="title">
+    <h1>Maoon</h1>
+    </div>
+    <div class="info">
+      <h1>Milkyway</h1>
+      <p>Our galaxy</p>
+      <button>Read More</button>
+    </div>
+  </div>
+  <div class="card"><img src="https://images.unsplash.com/photo-1548391350-968f58dedaed?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bW9vbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"/>
+    <div class="title">
+    <h1>Maoon</h1>
+    </div>
+    <div class="info">
+      <h1>Moon</h1>
+      <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+      <button>Read More</button>
+    </div>
+  </div>
+</div>
+
+</div>
+	{% endblock body %}
